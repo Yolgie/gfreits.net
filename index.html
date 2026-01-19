@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gfreits.net - Mi gfreits ned!</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #0066cc 0%, #003366 100%);
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: #ffff00;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #000080;
+            border: 5px ridge #00ffff;
+            padding: 30px;
+            box-shadow: 0 0 30px #ff00ff;
+        }
+        
+        h1 {
+            font-size: 48px;
+            text-shadow: 3px 3px #ff00ff, 6px 6px #00ffff;
+            animation: rainbow 3s infinite;
+            margin: 20px 0;
+        }
+        
+        @keyframes rainbow {
+            0% { color: #ff0000; }
+            16% { color: #ff00ff; }
+            33% { color: #0000ff; }
+            50% { color: #00ffff; }
+            66% { color: #00ff00; }
+            83% { color: #ffff00; }
+            100% { color: #ff0000; }
+        }
+        
+        .blink {
+            animation: blink 1s infinite;
+        }
+        
+        @keyframes blink {
+            0%, 50%, 100% { opacity: 1; }
+            25%, 75% { opacity: 0; }
+        }
+        
+        .construction {
+            font-size: 72px;
+            animation: spin 2s linear infinite;
+            display: inline-block;
+            margin: 10px;
+        }
+        
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        .message {
+            font-size: 24px;
+            background: #ff00ff;
+            color: #ffffff;
+            padding: 15px;
+            border: 3px dashed #ffff00;
+            margin: 20px auto;
+            max-width: 600px;
+            animation: wiggle 0.5s infinite;
+        }
+        
+        @keyframes wiggle {
+            0%, 100% { transform: rotate(-2deg); }
+            50% { transform: rotate(2deg); }
+        }
+        
+        .counter {
+            background: #000000;
+            color: #00ff00;
+            font-family: 'Courier New', monospace;
+            padding: 10px 20px;
+            border: 2px solid #00ff00;
+            display: inline-block;
+            margin: 20px;
+            font-size: 18px;
+            box-shadow: 0 0 10px #00ff00;
+        }
+        
+        .sparkle {
+            animation: sparkle 1.5s infinite;
+            display: inline-block;
+        }
+        
+        @keyframes sparkle {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.2); }
+        }
+        
+        .marquee {
+            background: #ffff00;
+            color: #ff0000;
+            font-weight: bold;
+            padding: 10px;
+            margin: 20px 0;
+            font-size: 20px;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        
+        .marquee span {
+            display: inline-block;
+            animation: marquee 15s linear infinite;
+        }
+        
+        @keyframes marquee {
+            from { transform: translateX(100%); }
+            to { transform: translateX(-100%); }
+        }
+        
+        .gif-container {
+            margin: 30px 0;
+        }
+        
+        .gif-box {
+            display: inline-block;
+            background: #ffffff;
+            padding: 10px;
+            border: 3px solid #ff00ff;
+            margin: 10px;
+            box-shadow: 5px 5px #00ffff;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #00ffff;
+        }
+        
+        a {
+            color: #00ff00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        a:hover {
+            color: #ffff00;
+            text-decoration: underline wavy;
+        }
+        
+        .webring {
+            border: 2px dotted #ffff00;
+            padding: 15px;
+            margin: 20px auto;
+            max-width: 500px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="construction">🚧</div>
+        <h1>gfreits.net</h1>
+        <div class="construction">🚧</div>
+        
+        <div class="marquee">
+            <span>⚡ UNDER CONSTRUCTION ⚡ Mi gfreits ned! ⚡ WORK IN PROGRESS ⚡ Coming Soon™ ⚡ Best Viewed in Netscape Navigator ⚡</span>
+        </div>
+        
+        <div class="message">
+            <p class="blink">⚠️ ACHTUNG! ⚠️</p>
+            <p><strong>Mi gfreits ned!</strong></p>
+            <p style="font-size: 18px;">(I don't feel like it right now... check back later!)</p>
+        </div>
+        
+        <div class="gif-container">
+            <div class="gif-box">
+                <div style="font-size: 48px;">🔨</div>
+                <div style="color: #000; font-size: 12px;">UNDER CONSTRUCTION</div>
+            </div>
+            
+            <div class="gif-box">
+                <div style="font-size: 48px;">💻</div>
+                <div style="color: #000; font-size: 12px;">WEBMASTER AT WORK</div>
+            </div>
+            
+            <div class="gif-box">
+                <div style="font-size: 48px;">⏳</div>
+                <div style="color: #000; font-size: 12px;">LOADING...</div>
+            </div>
+        </div>
+        
+        <div class="counter">
+            <span class="sparkle">✨</span> YOU ARE VISITOR NUMBER: <span style="color: #ffff00;">000042</span> <span class="sparkle">✨</span>
+        </div>
+        
+        <p style="font-size: 20px; margin: 30px 0;">
+            This website is currently <span class="blink">UNDER CONSTRUCTION</span><br>
+            because honestly... <strong style="color: #ff00ff;">mi gfreits ned!</strong>
+        </p>
+        
+        <div class="webring">
+            <p>🌟 This site is part of the <strong>Austrian Procrastination Webring</strong> 🌟</p>
+            <p style="font-size: 10px;">[ <a href="#">Previous</a> | <a href="#">Random</a> | <a href="#">Next</a> ]</p>
+        </div>
+        
+        <div class="footer">
+            <p>⭐ Optimized for 800x600 resolution ⭐</p>
+            <p style="font-size: 10px;">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='31'%3E%3Crect fill='%230066cc' width='88' height='31'/%3E%3Ctext x='44' y='20' font-family='Arial' font-size='12' fill='white' text-anchor='middle'%3EHTML%3C/text%3E%3C/svg%3E" alt="HTML Badge" style="margin: 5px;">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='31'%3E%3Crect fill='%23ff00ff' width='88' height='31'/%3E%3Ctext x='44' y='20' font-family='Arial' font-size='12' fill='white' text-anchor='middle'%3ECSS%3C/text%3E%3C/svg%3E" alt="CSS Badge" style="margin: 5px;">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='31'%3E%3Crect fill='%2300ff00' width='88' height='31'/%3E%3Ctext x='44' y='20' font-family='Arial' font-size='12' fill='black' text-anchor='middle'%3EY2K Ready%3C/text%3E%3C/svg%3E" alt="Y2K Ready" style="margin: 5px;">
+            </p>
+            <p>© 2026 gfreits.net | Last updated: <span class="blink">NEVER</span> because mi gfreits ned!</p>
+            <p style="font-size: 10px; color: #888;">Webmaster: Austrian Sloth Division 🦥</p>
+        </div>
+    </div>
+</body>
+</html>
